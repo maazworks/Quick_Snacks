@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
+
+</head>
+
+<body>
+
+  <!-- NAVBAR START -->
+  <nav class="navbar navbar-expand-lg custom-nav ">
+    <div class="container-fluid nav-content">
+      <a href="../index.html"><img src="../assets/images/quick snacks logoo.png" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="dropdown" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Snacks Categories
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../pages/hs.html">Healthy Snacks</a></li>
+              <li><a class="dropdown-item" href="../pages/snacksforkids.html">Snacks for kids</a></li>
+              <li><a class="dropdown-item" href="../pages/easyonstomach.html">Easy on stomach snacks</a>
+              </li>
+              <li><a class="dropdown-item" href="../pages/smoothies.html">Smoothies</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./ContactUs.html">Contact us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../pages/AboutUs.html">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html #tm">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../pages/gallery.html">Gallery</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- NAVBAR END  -->
+
+  <!-- CONTACT SECTION  -->
+  <div class="main-cont">
+    <div class="contact">
+      <div class="head">
+        <h1>contact us</h1>
+      </div>
+      <div class="cont">
+        <div class="form-box">
+          <h2>Send Message</h2>
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="0a14ccb8-7a23-4781-8177-9fe1e21b0ada">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea rows="5" name="message" placeholder="Your Message"></textarea>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+        <div class="contact-info">
+          <h2>Contact Information</h2>
+          <p><strong>Address:</strong> 123 Main Street, New York, USA</p>
+          <p><strong>Email:</strong> info@quicksnacks.com
+          <p><strong>Phone:</strong> +92 300 1234567</p>
+        </div>
+      </div>
+      <!-- GEO LOCATION -->
+      <div class="location-box">
+        <h2>Your Location</h2>
+        <button onclick="getLocation()">Get Location</button>
+        <p id="result">Click the button to get location</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER START -->
+  <footer class="footer">
+    <div class="footer-container">
+
+      <div class="footer-about">
+        <img src="../assets/images/quick snacks logoo.png" alt="logo">
+        <p>
+          “Too Quick. Too Good.” <br><br>
+          Healthy, quick, and delicious snack ideas made <br> for your busy lifestyle.
+          Eat smart. Snack better.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Links</h4>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../index.html #snacks">Snacks</a></li>
+          <li><a href="../pages/ContactUs.html">ContactUs</a></li>
+          <li><a href="../pages/AboutUs.html">AboutUs</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h4><a href="./ContactUs.html">Contact</a></h4>
+        <p>Email: info@quicksnacks.com</p>
+        <p>Phone: +92 300 1234567</p>
+        <h4><a href="../pages/gallery.html">Gallery</a></h4>
+        <img src="../assets/images/gallery1.jpg" alt="demo 1">
+        <img src="../assets/images/gallery2.jpg" alt="demo 2">
+        <img src="../assets/images/gallery 3.jpg" alt="demo 3">
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 QuickSnacks. All Rights Reserved.</p>
+    </div>
+  </footer>
+  <!-- FOOTER END -->
+
+  <script src="../bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="../assets/js/script.js"></script>
+</body>
+
+</html>
